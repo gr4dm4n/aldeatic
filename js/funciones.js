@@ -92,7 +92,7 @@
 				$(".video_caja").append(
 					'<video class="escala_img"'+
 					 'src="http://cdns840stu1021.multistream.net/canaltr3celive/amlst:live/playlist.m3u8"'+
-                     'poster="img/vivo.png" '+
+                     'poster="images/video_online.png" '+
                      'controls="" '+
                      'autoplay="false" '+
                      'tabindex="0">'+
@@ -105,7 +105,7 @@
 				$(".video_caja").append(
 					'<video class="escala_img"'+
 					 'src="http://cdns840stu1021.multistream.net/canaltr3celive/amlst:live/playlist.m3u8"'+
-                     'poster="img/vivo.png" '+
+                     'poster="images/video_online.png" '+
                      'controls="" '+
                      'autoplay="false" '+
                      'tabindex="0">'+
