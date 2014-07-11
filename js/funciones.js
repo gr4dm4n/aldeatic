@@ -90,9 +90,13 @@
 
 				// Crear Caja para Streaming Android
 				$(".video_caja").append(
-					'<a href="rtsp://cdns840stu1021.multistream.net/canaltr3celive/live-300" >'+
-					'<img src="images/video_online.jpg" class="escala_img"/>'+
-					'</a>');
+					'<video class="escala_img"'+
+					 'src="http://cdns840stu1021.multistream.net/canaltr3celive/amlst:live/playlist.m3u8"'+
+                     'poster="img/vivo.png" '+
+                     'controls="" '+
+                     'autoplay="false" '+
+                     'tabindex="0">'+
+                     '</video>');	
 				
 		  }else{
 			    // Es iOS
@@ -100,12 +104,12 @@
 				// Crear Caja para Streaming iOS
 				$(".video_caja").append(
 					'<video class="escala_img"'+
-					'src="http://cdns840stu1021.multistream.net/canaltr3celive/amlst:live/playlist.m3u8"'+
-					'poster="images/video_online.jpg" '+
-					'controls="" '+
-					'autoplay="false" '+
-					'tabindex="0">'+
-					'</video>');	
+					 'src="http://cdns840stu1021.multistream.net/canaltr3celive/amlst:live/playlist.m3u8"'+
+                     'poster="img/vivo.png" '+
+                     'controls="" '+
+                     'autoplay="false" '+
+                     'tabindex="0">'+
+                     '</video>');	
 			}
 			
 			
