@@ -1,0 +1,472 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NeueLight';
+    src: url('fuentes/HelveticaNeueLight.ttf') format('truetype');
+}
+
+body{
+	font-family: 'NeueLight',Helvetica, Arial, sans-serif;
+}
+
+
+h2{
+   font-family: 'NeueLight',Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   text-align:center; 
+}
+
+
+
+span{
+   font-family: 'NeueLight',Helvetica, Arial, sans-serif;
+}
+
+.espacio{
+   text-align:center;
+}
+
+.escala_img{
+	 width: 100%;
+}
+
+.sinborde{
+   padding: 0px !important;
+}
+.cabezote{
+	position:fixed !important; 
+	left:0px !important; 
+	right:0px !important; 
+	top:0px !important; 
+	z-index:9996 !important;
+	-webkit-transform: translateZ(0);
+ }
+
+
+.pie{
+	position:fixed !important; 
+	left:0px !important; 
+	right:0px !important; 
+	bottom:-2px !important; 
+	z-index: 9999 !important;
+	-webkit-transform: translateZ(0);	
+ }
+
+ 
+
+/* Menú Superior - Header  */
+
+.menu_superior_1{
+	width: 47px;
+	height: 35px;
+	border:hidden !important;
+	background: url(../images/menu_superior.png) 3px 0 no-repeat;
+}
+
+.menu_superior_1:hover{
+	background: url(../images/menu_superior.png) 3px -40px no-repeat;
+}
+
+.menu_superior_2{
+	width: 47px;
+	height: 35px;
+	border:hidden !important;
+	background: url(../images/menu_superior.png) -47px 0 no-repeat;
+}
+.menu_superior_logo{
+	width: 55px;
+	height: 30px;
+	border:hidden !important;
+
+		background: url(../images/menu_superior.png) -180px 2px no-repeat;
+}
+.menu_superior_3{
+	width: 32px;
+	height: 35px;
+	border:hidden !important;
+	background: url(../images/menu_superior.png) -145px 0 no-repeat;
+}
+
+.menu_superior_2:hover{
+	background: url(../images/menu_superior.png) -47px -40px no-repeat;
+}
+
+
+
+
+/* Menú Inferior - Footer  */
+
+.menu_inferior_1{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom: 5px;
+	width: 25px;
+	height: 22px;
+	background: url(../images/menu_inferior.png) 0 0 no-repeat;
+}
+
+.menu_inferior_2{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom: 5px;
+	width: 28px;
+	height: 22px;
+	background: url(../images/menu_inferior.png) -85px 0 no-repeat;
+}
+
+.menu_inferior_3{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom: 5px;
+	width: 28px;
+	height: 25px;
+	background: url(../images/menu_inferior.png) -175px 0 no-repeat;
+}
+
+.menu_inferior_4{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom: 5px;
+	width: 28px;
+	height: 25px;
+	background: url(../images/menu_inferior.png) -265px 0 no-repeat;
+}
+
+.menu_inferior_5{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom: 5px;
+	width: 20px;
+	height: 25px;
+	background: url(../images/menu_inferior.png) -352px 0 no-repeat;
+}
+
+
+
+/* Efectos de Botones  */
+
+.fx1{
+	opacity: 1;
+}
+
+.fx1:hover{
+	opacity: 0.5;
+}
+
+
+/* Pantalla Principal de AldeaTIC  */
+
+
+.principal_trivia{
+	margin: 0 auto;
+	position:relative;
+	padding: 3px;
+	overflow:hidden;
+	background: url(../images/principa2.jpg) no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+
+.principal_menutrivia{
+	width:70% !important;
+	margin: 95% auto 0;
+}
+
+
+.principal_triviafecha{
+
+	margin-top:10px;
+	z-index:3;
+	position:relative; 
+	text-align:center;	
+	font-size:15px;	
+	color:#FFF;
+	
+}
+
+.principal_logo{
+
+	margin-top:20px; 
+	z-index:3; 
+	position:relative
+	
+}
+
+.principal_triviainfo{
+	width: 80%;
+	height: 100%;
+	margin: 0px auto 0;
+	text-align:left !important;
+}
+
+
+.tusencuestas_pregunta{
+	margin-bottom:20px;
+	border-bottom: 0.3px solid rgba(255, 255, 255, .3);
+	height:80px;
+	text-align:center;
+	line-height: 1cm; 
+	line-height: 80px; 
+	line-height: 80pt; 
+	line-height: 200%; 
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/ 
+}
+
+
+.tusencuestas_inferior .ui-btn-inner, input.tusencuestas_inferior{ /* Boton de Enviar Encuesta */
+	
+	width: 80px !important;
+	height: 30px !important;
+	color: transparent !important;
+	background: url(../images/enviar.png) no-repeat !important;
+	border:hidden !important;
+	margin-bottom: 20px;
+}
+
+.tusencuestas_inferior a{
+	color:#FFF !important;
+}
+
+
+.tusencuestas_respuestas
+{
+	
+    padding: 8px;
+} 
+.tusencuestas_respuestas td
+{
+	width:100%;
+	
+    padding: 3px;
+} 
+.tusencuestas_myBar
+{
+    background-color: #FFF;
+    border: solid 1px #666; 
+}
+.tusencuestas_myBar_1
+{
+    background-color:#FFF;    
+}
+.tusencuestas_myBar_3
+{
+    background-color:#FFF;    
+}
+.tusencuestas_myBar_4
+{
+    background-color:#FFF;    
+}
+
+
+
+
+.principal_vertrivia{
+	position:absolute;
+	margin-left:4%;
+	width: 90%;
+	height: 80px;
+	z-index:50;
+}
+
+
+/* Señal en Vivo de AldeaTIC  */
+
+.video_caja {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+
+.caja_chat{
+	margin: 0 auto;
+	position:relative;
+	width: 300px !important;
+	height: 300px;
+	max-width: 100%;	
+}
+
+
+.comentario_enviar{
+	display: inline-block;
+	text-align:left;
+	margin-bottom:20px;
+	width: 100px;
+	height: 37px;
+	background: url(../images/enviar.png) no-repeat;
+}
+
+
+
+/* Capitulos de AldeaTIC  */
+
+#ventana_youtube{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	text-align:left;	
+}
+
+#ventana_youtube li{
+	margin-left: 5px !important;
+	background:  url(../images/icon_movies.png) no-repeat;
+}
+
+
+#ventana_youtube li div {
+	font-size:12px;
+	margin-left: 50px !important;
+}
+
+#yunero{
+	background-color:#FFF;
+}
+
+
+
+/* Alertas de AldeaTIC  */
+
+.tit_alarmasprog{
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+}
+
+.cuadro_contenido{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-bottom: 7px solid #fff;
+}
+
+
+
+.activar_alarma{
+	font-family: 'NeueLight',Helvetica, Arial, sans-serif;
+	width:90% !important;
+	margin:0 auto;
+	height:100%;
+	text-align:center;
+	padding: 15px;
+}
+
+
+.cuadro_fechaalarma{
+	position: absolute;
+	width:100%;
+	height:70px;
+	background-color:#FFF;
+	color:#36C;
+	text-align:center;
+	margin-top: 240px;
+	
+}
+
+
+#fechaformat{
+	display: inline-block;
+	font-family: 'NeueLight', Helvetica, Arial, sans-serif;
+	font-size:36px;
+	color:#36C;
+	text-align:center;
+	margin-top:18px;
+
+}
+
+#calendario{
+	position: relative;
+	margin: 0 auto;
+	width: 280px !important;
+	height: 470px!important;
+}
+
+#eventgr{
+	text-align:left;
+	width: 80%;
+	
+}
+
+
+
+/* Comenta o Pregunta de AldeaTIC  */
+
+#comentarios{
+	display: inline-block;
+	color: #333;
+	background-color:#fff;
+	margin-top:20px;
+	width:80%;
+	height:200px;
+}
+
+.coment_enviar{
+	display: inline-block;
+	margin-top:40px;
+	width: 100px;
+	height: 37px;
+	background: url(../images/enviar.png) no-repeat;
+}
+
+
+
+/* Página: Contenido a la Carta  */
+
+.contenido_carta{
+	position:absolute;
+	margin-top:20px;
+	width: 380px;
+	height: 300px;
+}
+
+.carta_enviar{
+	display: inline-block;
+	margin-top:270px;
+	width: 100px;
+	height: 37px;
+	background: url(../images/enviar.png) no-repeat;
+}
+
+
+/* Página: Lo + Cool  */
+
+#caja_noticias {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	text-align:left;
+}
+
+#caja_noticias ul li{ list-style: none; font-size: 14px; width: 100%; min-height: 50px; height: auto; display: block;clear: both;}
+
+
+
+/* Android de 320 PX  */
+@media (max-width: 390px) {
+
+.caja_chat{
+	margin-left:-7px;	
+}
+
+.ui-header .ui-btn-inner, .ui-footer .ui-btn-inner, .ui-mini .ui-btn-inner{
+	font-size:11px !important;
+}
+ 
+.ventana_youtube{
+	margin-left:-20px;
+}
+
+#fechaformat{
+	font-size:23px;
+} 
+
+.cuadro_contenido{
+	font-size:12px;
+}
+
+.cuadro_contenido_carta{
+	font-size:12px;
+}
+
+
+}

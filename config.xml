@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.aldeatic.ios"
+    version   = "1.0.0">
+
+<name>Aldea TIC</name>
+
+<description>
+Esta es una aplicación con lo último de Aldea TIC.
+</description>
+
+<author href="http://canal13.com.co/" email="aldeatic@canal13.com.co/">
+Canal TR3CE
+</author>
+
+
+<preference name="phonegap-version" value="2.9.0" />
+<preference name="load-url-timeout" value="60000" />
+
+	<!--permito que la apliación se ejecute en segundo plano!-->
+	<!--<preference name="KeepRunning" value="false"/>
+	
+	<plugin name="Notification" value="org.apache.cordova.Notification"/>
+	<plugin name="Notification" value="CDVNotification" />-->
+	
+	
+	<!--permite las notificaciones del sistemas!-->
+	<feature name="Notification">
+		<param name="ios-package" value="CDVNotification" />
+	</feature>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="Notification">
+		<param name="wp-package" value="Notification"/>
+	</feature>
+	
+	<!--Configuro permisos para el almacenamiento!-->
+	<icon src="icon.png" />
+	<icon src="icons/ios/icon57x57.png" gap:platform="ios" width="57" height="57" />
+	<icon src="icons/ios/icon72x72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/ios/icon114x114.png" gap:platform="ios" width="114" height="114" />
+	
+	<gap:splash src="images/splash.png" />
+	<gap:splash src="images/splash.png" gap:platform="ios" width="320" height="480" />
+
+	<param name="websecurity" value="enabled"/>
+	
+
+</widget>

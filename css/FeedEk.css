@@ -1,0 +1,45 @@
+.feedEkList {
+	width: 100%;
+	list-style: none outside none;
+	background-color: #FFFFFF;
+	border: 1px solid #D3CAD7;
+	padding: 4px 0px;
+	color: #3E3E3E;
+	font-weight:normal !important;
+}
+
+.feedEkList a{
+	color: #2489ce;
+}
+
+.feedEkList li {
+	border-bottom: 1px solid #D3CAD7;
+	padding: 15px;
+}
+.feedEkList li:last-child {
+	border-bottom: none;
+}
+.itemTitle a {
+	font-weight: bold;
+	color: #2489ce;
+	font-size: 14px; !important;
+	text-decoration: none
+}
+.itemTitle a:hover {
+	text-decoration: underline
+}
+.itemDate {
+	font-size: 22px;
+	color: #999999;
+}
+
+
+/* Android de 320 PX  */
+@media (max-width: 390px) {
+.feedEkList li {
+	font-size: 13px;
+}
+.itemDate {
+	font-size: 17px;
+}
+}
