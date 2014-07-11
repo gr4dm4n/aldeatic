@@ -15,7 +15,7 @@ Canal TR3CE
 </author>
 
 
-<preference name="phonegap-version" value="2.9.0" />
+<preference name="phonegap-version" value="3.3.0" />
 <preference name="load-url-timeout" value="60000" />
 
 	<!--permito que la apliación se ejecute en segundo plano!-->
