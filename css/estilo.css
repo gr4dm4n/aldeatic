@@ -278,6 +278,10 @@ span{
 }
 
 
+video {
+    height: 200px;
+    width: 100%;
+}
 .caja_chat{
 	margin: 0 auto;
 	position:relative;
