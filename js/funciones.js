@@ -37,7 +37,7 @@
 							jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
 						});
 		
-			var hashTag = "%23respeto"
+			var hashTag = "%23‎FIFA";
 		  	var facebookAccesToken = "497563243596126|YoOdB7LHhPU72sSetwnEd-l9hI4";
 		  	var facebookfeedUrl = "https://graph.facebook.com/v1.0/search?q="+hashTag+"&type=post&access_token="+facebookAccesToken;
 			
@@ -49,7 +49,7 @@
 				if( ( fb.message == "undefined") || ( fb.message == "UNDEFINED") ||  ( typeof fb.message === "UNDEFINED") || ( fb.message == null) )
 					html += "<li><img src='"+fb.picture+"'/></li>";
 				else
-					html += "<li><img src='"+fb.picture+"'/><a href='" +fb.link+"'>"+ fb.message + "</a></li>";
+					html += "<li><img src='"+fb.picture+"'/><br />"+ fb.message + "</li>";
 			}else{
 				html += "<li>"+ fb.message + "</li>";
 			}
