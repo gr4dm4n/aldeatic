@@ -70,7 +70,7 @@
 		
 			// Trae todos los videos de youtube de la lista Aldea TIC
 		 $('#ventana_youtube').FeedEk({
-            FeedUrl: 'http://gdata.youtube.com/feeds/api/playlists/PLGsF4QfCJgJnlL6bwYVloWdduHxKQJ0UK?v=2',
+            FeedUrl: 'http://gdata.youtube.com/feeds/api/playlists/PLGsF4QfCJgJnvRmSLEEIprVGWW3lDtaH5?v=2',
 			TitleLinkTarget:'_blank',
             MaxCount: 10
         });
