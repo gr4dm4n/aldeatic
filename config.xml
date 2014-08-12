@@ -41,7 +41,7 @@ Canal TR3CE
 	<icon src="icons/ios/icon114x114.png" gap:platform="ios" width="114" height="114" />
 	
 	<gap:splash src="images/splash.png" />
-	<gap:splash src="images/splash.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="images/splash.png" gap:platform="ios" width="640" height="1136" />
 
 	<param name="websecurity" value="enabled"/>
 	
